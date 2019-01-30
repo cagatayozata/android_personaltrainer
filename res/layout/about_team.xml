@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="418dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="8dp"
+        android:background="#cacaca"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/sss_back"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            app:srcCompat="@drawable/ic_left_arrow" />
+    </FrameLayout>
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.cagatay.ozata.project.Fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2" />
+
+    <Button
+        android:id="@+id/buttonfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:onClick="selectFrag"
+        android:text="@string/about"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment"
+        android:background="@drawable/signin_rect"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/buttonfrag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="selectFrag"
+        android:text="@string/team"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/signin_rect"
+        app:layout_constraintTop_toBottomOf="@+id/fragment"
+        android:textColor="#fff"/>
+</android.support.constraint.ConstraintLayout>

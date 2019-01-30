@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Personal Trainer App</string>
+
+    <string name="blank">Blank</string>
+    <string name="team">TEAM</string>
+    <string name="about">ABOUT</string>
+    <string name="listpt">LIST ALL PERSONAL TRAINERS</string>
+    <string name="myfavs">My Favorites</string>
+    <string name="listmyfavs">LIST MY FAVORITES</string>
+    <string name="findpt">FIND PT</string>
+    <string name="meetus">Double click to meet us!</string>
+    <string name="cagatay">Cagatay OZATA</string>
+    <string name="aboutapp">This application is prepared for CTIS487 Project. The goal of this is meeting between users and personal trainers. Have fun!!!</string>
+    <string name="trainer">Personal Trainer</string>
+    <string name="addtofav">ADD TO MY FAVORITE</string>
+    <string name="contact">CONTACT</string>
+    <string name="certified">Certificited</string>
+
+</resources>
