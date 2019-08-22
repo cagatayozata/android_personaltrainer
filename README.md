@@ -1,5 +1,3 @@
-# android_personaltrainer
-
 # Android Personal Trainer Application
 
 List personal trainers from JSON on web. Profile page and favorites personal trainers are available.
